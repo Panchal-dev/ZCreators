@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# IDE-specific files (e.g., VS Code, WebStorm)
+.vscode/
+.idea/
+
+# Build artifacts and compiled files
+build/
+dist/
+public/build/ # If client-side build output is placed here
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Testing related files
+coverage/
+
+# Local development files (if any specific to your setup)
+*.local
