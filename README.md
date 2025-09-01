@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Green Hydrogen Platform](1.png)
+![Green Hydrogen Platform](Images/1.png)
 
 **A Revolutionary Blockchain-Based Green Hydrogen Subsidy Management System**
 
@@ -39,7 +39,7 @@
 - **Framer Motion Animations** - Smooth, professional animations throughout the app
 - **Intuitive Navigation** - Easy-to-use interface with clean design patterns
 
-![Modern UI Design](2.png)
+![Modern UI Design](Images/2.png)
 
 ### 🔐 **Multi-Role Authentication System**
 - **Government Officials** - Approve and manage subsidy programs
@@ -53,7 +53,7 @@
 - **Multi-Wallet Support** - MetaMask, WalletConnect, and more
 - **Real-time Blockchain Monitoring** - Track all transactions and events
 
-![Blockchain Integration](3.png)
+![Blockchain Integration](Images/3.png)
 
 ### 📊 **Project Management Dashboard**
 - **Real-time Analytics** - Live project statistics and performance metrics
@@ -61,7 +61,7 @@
 - **Milestone Tracking** - Progress monitoring with automated notifications
 - **Document Management** - Secure file upload and version control
 
-![Dashboard Analytics](4.png)
+![Dashboard Analytics](Images/4.png)
 
 ### 💰 **Smart Subsidy Management**
 - **Automated Payments** - Smart contract-based subsidy distribution
@@ -75,7 +75,7 @@
 - **Risk Assessment** - AI-powered risk analysis and alerts
 - **Data Export** - Export audit data in multiple formats
 
-![Audit System](5.png)
+![Audit System](Images/5.png)
 
 ## 🏗️ Architecture
 
@@ -122,32 +122,32 @@ graph TB
 ### 🏠 **Landing Page & Authentication**
 Beautiful, responsive landing page with seamless authentication flow.
 
-![Landing Page](1.png)
+![Landing Page](Images/1.png)
 
 ### 📊 **Dashboard Overview**
 Comprehensive dashboard with real-time analytics and project insights.
 
-![Dashboard](2.png)
+![Dashboard](Images/2.png)
 
 ### 🗂️ **Project Management**
 Intuitive project creation and management interface.
 
-![Project Management](3.png)
+![Project Management](Images/3.png)
 
 ### 📈 **Analytics & Reports**
 Advanced analytics with interactive charts and data visualization.
 
-![Analytics](4.png)
+![Analytics](Images/4.png)
 
 ### ⚙️ **Settings & Profile**
 User-friendly settings panel with theme customization.
 
-![Settings](5.png)
+![Settings](Images/5.png)
 
 ### 📱 **Mobile Responsive**
 Fully responsive design optimized for mobile devices.
 
-![Mobile View](6.png)
+![Mobile View](Images/6.png)
 
 ## 🚀 Quick Start
 

@@ -1,35 +1,167 @@
 # Node.js dependencies
 node_modules/
+.pnp
+.pnp.js
 
-# Environment variables
+# Environment variables - SECURITY CRITICAL
 .env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
 
-# IDE-specific files (e.g., VS Code, WebStorm)
-.vscode/
-.idea/
+# API Keys and Secrets - SECURITY CRITICAL
+config/keys.js
+config/config.json
+secrets/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+private-key.json
+service-account.json
+
+# Database files - SECURITY CRITICAL
+*.db
+*.sqlite
+*.sqlite3
+data/
+database/
+mongodb/
+dumps/
+
+# JWT and Authentication - SECURITY CRITICAL
+jwt-secret.txt
+auth-keys/
+certificates/
+
+# Uploads and User Files - SECURITY CRITICAL
+uploads/
+files/
+media/
+user-uploads/
+temp-uploads/
 
 # Build artifacts and compiled files
 build/
 dist/
-public/build/ # If client-side build output is placed here
+out/
+lib/
+compiled/
+public/build/
 
-# Log files
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Log files - MAY CONTAIN SENSITIVE DATA
 *.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log.*
+access.log
+error.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+lib-cov
+coverage/
+*.lcov
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
 
 # Operating System generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Temporary files
 *.tmp
+*.temp
 *.swp
 *.swo
+*~
 
-# Testing related files
-coverage/
-
-# Local development files (if any specific to your setup)
+# Local development files
 *.local
+.local
+
+# Editor backups
+*~
+*.orig
+*.rej
+
+# Session files
+sessions/
+*.session
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Temporary folders
+tmp/
+temp/
+cache/
+
+# Test coverage and results
+test-results/
+.nyc_output/
+
+# PM2 process files
+ecosystem.config.js
+.pm2/
+
+# Docker files (if containing sensitive data)
+docker-compose.override.yml
+.dockerignore.local
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Error dumps
+*.dmp
+
+# Local configuration overrides
+config.local.js
+settings.local.json

@@ -1,35 +1,132 @@
 # Node.js dependencies
 node_modules/
+.pnp
+.pnp.js
 
-# Environment variables
+# Environment variables - SECURITY CRITICAL
 .env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
 
-# IDE-specific files (e.g., VS Code, WebStorm)
-.vscode/
-.idea/
+# API Keys and Secrets - SECURITY CRITICAL
+config/keys.js
+config/config.json
+secrets/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database files - SECURITY CRITICAL
+*.db
+*.sqlite
+*.sqlite3
 
 # Build artifacts and compiled files
 build/
 dist/
-public/build/ # If client-side build output is placed here
+out/
+public/build/
+.next/
+.nuxt/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
 
 # Log files
 *.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+lib-cov
+coverage/
+*.lcov
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
 
 # Operating System generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Temporary files
 *.tmp
+*.temp
 *.swp
 *.swo
+*~
 
-# Testing related files
-coverage/
-
-# Local development files (if any specific to your setup)
+# Local development files
 *.local
+.local
+
+# Editor backups
+*~
+*.orig
+*.rej
+
+# Webpack
+.webpack/
+
+# Vite
+.vite/
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
